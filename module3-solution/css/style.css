@@ -1,0 +1,70 @@
+body {
+	font-family: Arial, sans-serif;
+	color: #2E2E2E;
+}
+
+/*Header*/
+#header-nav{
+border-radius: 0;
+background-color: #E0F8EC;
+padding-bottom: 5px;
+}
+
+.navbar-brand h1{
+font-family: Arial, sans-serif;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 5px;
+}
+
+.navbar-header button.navbar-toggle {
+clear: both;
+margin-top: -30px;
+}
+
+#nav-list {
+	margin-bottom: 0px;
+}
+
+#nav-list li {
+background-color: #FFFFFF;
+border: 1px solid black;
+font-weight: bold;
+font-size: 1.2em;
+}
+
+#nav-list li a:hover {
+background-color: #FAFAFA;	
+}	
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+border: 1px solid #A4A4A4;
+}
+
+/*Home page*/
+h2 {
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-top: -5px;
+	margin-bottom: 15px;
+}
+
+#chicken{
+border: 1px solid black;
+background-color: #CEE3F6;
+height: 600px;
+margin-bottom: 15px;
+}
+
+#chicken h3{
+	font-weight: bold;
+}
+
+/* Small devices */
+
+@media (max-width: 767px){
+#chicken{
+	margin:0 2.5% 10px 2.5%;
+	width: 95%;
+	}
+}
